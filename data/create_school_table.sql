@@ -1,0 +1,9 @@
+CREATE TABLE school (
+cnpj VARCHAR(20) PRIMARY KEY,
+name VARCHAR(50) NOT NULL,
+com_phone VARCHAR(20) NOT NULL,
+street VARCHAR(50),
+zip_code VARCHAR(10),
+city VARCHAR(50),
+state VARCHAR(2)
+);
